@@ -1,0 +1,341 @@
+Feb 13 11:47:41  rr3 bfdd[218]: sysctl hw.product.pvi_model not supported 
+Feb 13 11:47:41  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:47:42  rr3 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:47:42  rr3 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:47:42  rr3 jdhcpd[216]: pvidb_get_root_node: Error(2) retrieving rootnode value 
+Feb 13 11:47:42  rr3 jdhcpd: smid_client_shmem_init: shmget created segment, id 4 sz 1
+Feb 13 11:47:42  rr3 jdhcpd: sysctl get re memory: No such file or directory
+Feb 13 11:47:42  rr3 rpd: RPD_KRT_MULTIFIB_SERVICE_INIT: Initializing KRT Multi FIB Service
+Feb 13 11:47:42  rr3 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:47:42  rr3 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:47:42  rr3 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:47:42  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:42  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:42  rr3 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs started on MASTER
+Feb 13 11:47:42  rr3 rpd: JTASK_TASK_BEGIN: Commencing routing updates version 24.4R2-S3.5, built 2026-01-30 08:19:24 UTC by builder
+Feb 13 11:47:42  rr3 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:47:42  rr3 last message repeated 2 times
+Feb 13 11:47:42  rr3 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:43  rr3 mgd[365]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:47:43  rr3 mgd[365]: UI_EPHEMERAL_COMMIT: User 'root' has requested commit on 'junos-analytics' ephemeral database
+Feb 13 11:47:43  rr3 mgd[365]: UI_EPHEMERAL_COMMIT_COMPLETED: commit complete on 'junos-analytics' ephemeral database
+Feb 13 11:48:12  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 20 [2026-02-13 11:47:42]
+Feb 13 11:48:12  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 23 [2026-02-13 11:47:42]
+Feb 13 11:50:12  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:52:42  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:55:12  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:56:23  rr3 mgd[405]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 11:56:23  rr3 mgd[405]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:56:24  rr3 root: sshd config okay
+Feb 13 11:56:24  rr3 sshd[473]: Server listening on 0.0.0.0 port 830.
+Feb 13 11:56:24  rr3 sshd[473]: Server listening on :: port 830.
+Feb 13 11:56:24  rr3 sshd[473]: Server listening on 0.0.0.0 port 22.
+Feb 13 11:56:24  rr3 sshd[473]: Server listening on :: port 22.
+Feb 13 11:56:25  rr3 rpd: BGP_CFG_SEND_ADDPATH_OPTIMIZATION: send-addpath-optimization is disabled
+Feb 13 11:56:25  rr3 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:56:25  rr3 mgd[405]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770983783-2' and old database revision 'localhost-1770983259-1'
+Feb 13 11:56:25  rr3 mgd[405]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 11:56:25  rr3 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.0.1 (Internal AS 65000) local address 10.0.0.3 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:25  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:25  rr3 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.0.2 (Internal AS 65000) local address 10.0.0.3 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:25  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:25  rr3 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.0.4 (Internal AS 65000) local address 10.0.0.3 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:25  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:25  rr3 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.1.21 (Internal AS 65000) local address 10.0.0.3 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:25  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:25  rr3 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.1.22 (Internal AS 65000) local address 10.0.0.3 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:25  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:25  rr3 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:56:25  rr3 rpd: RPD_COMMIT_JOBS_STATUS: RPD commit jobs started on MASTER
+Feb 13 11:56:25  rr3 mgd[405]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 11:56:25  rr3 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:56:25  rr3 last message repeated 2 times
+Feb 13 11:56:25  rr3 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:56:25  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 21 [2026-02-13 11:56:25]
+Feb 13 11:56:25  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 24 [2026-02-13 11:56:25]
+Feb 13 11:56:55  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 33 [2026-02-13 11:56:25]
+Feb 13 11:56:55  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 36 [2026-02-13 11:56:25]
+Feb 13 11:57:33  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 34 [2026-02-13 11:57:33]
+Feb 13 11:57:33  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 37 [2026-02-13 11:57:33]
+Feb 13 11:57:33  rr3 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 2 [2026-02-13 11:57:33]
+Feb 13 11:57:42  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:57:43  rr3 rpd: JTASK_NO_SOCKACCEPT: Process events: no read/accept method for BGP_65000.10.0.1.21 socket 91
+Feb 13 11:57:43  rr3 rpd: bgp_pp_recv:6117: NOTIFICATION sent to 10.0.1.21 (Internal AS 65000): code 6 (Cease) subcode 7 (Connection Collision Resolution), Reason: dropping 10.0.1.21 (Internal AS 65000), connection collision prefers 10.0.1.21+50181 (proto)
+Feb 13 11:57:45  rr3 rpd: BGP_RESET_PENDING_CONNECTION: 10.0.1.22 (Internal AS 65000): resetting pending active connection (instance master)
+Feb 13 11:58:03  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 63 [2026-02-13 11:57:45]
+Feb 13 11:58:03  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 68 [2026-02-13 11:57:45]
+Feb 13 11:58:03  rr3 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 31 [2026-02-13 11:57:45]
+Feb 13 11:58:38  rr3 rpd: bgp_pp_recv:6105: NOTIFICATION sent to 10.0.0.1+40393 (proto): code 6 (Cease) subcode 7 (Connection Collision Resolution), Reason: dropping 10.0.0.1+40393 (proto), connection collision prefers 10.0.0.1 (Internal AS 65000)
+Feb 13 11:58:39  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 64 [2026-02-13 11:58:38]
+Feb 13 11:58:39  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 69 [2026-02-13 11:58:38]
+Feb 13 11:58:39  rr3 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 32 [2026-02-13 11:58:38]
+Feb 13 11:58:40  rr3 rpd: BGP_RESET_PENDING_CONNECTION: 10.0.0.2 (Internal AS 65000): resetting pending active connection (instance master)
+Feb 13 11:59:09  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 67 [2026-02-13 11:58:41]
+Feb 13 11:59:09  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 72 [2026-02-13 11:58:41]
+Feb 13 11:59:09  rr3 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 35 [2026-02-13 11:58:41]
+Feb 13 11:59:12  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to rr2 on eth1, reason: Level Mismatch
+Feb 13 11:59:12  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to rr2 on eth1, reason: Level Mismatch
+Feb 13 11:59:12  rr3 mgd[554]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 11:59:12  rr3 mgd[554]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:59:13  rr3 mgd[554]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770983952-3' and old database revision 'localhost-1770983783-2'
+Feb 13 11:59:13  rr3 mgd[554]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 11:59:13  rr3 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:59:13  rr3 rpd: RPD_COMMIT_JOBS_STATUS: RPD commit jobs started on MASTER
+Feb 13 11:59:13  rr3 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:59:13  rr3 last message repeated 2 times
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to rr4 on eth2, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to rr4 on eth2, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to d2 on eth6, reason: Level Mismatch
+Feb 13 11:59:13  rr3 mgd[554]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to d2 on eth6, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to c2 on eth4, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to c2 on eth4, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to d1 on eth5, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to d1 on eth5, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to c1 on eth3, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to c1 on eth3, reason: Level Mismatch
+Feb 13 11:59:13  rr3 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:59:13  rr3 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:59:39  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 74 [2026-02-13 11:59:11]
+Feb 13 12:00:01  rr3 CRON[651]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:00:12  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:01:01  rr3 mgd[662]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 12:01:01  rr3 mgd[662]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 12:01:02  rr3 mgd[662]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770984061-4' and old database revision 'localhost-1770983952-3'
+Feb 13 12:01:02  rr3 mgd[662]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 12:01:02  rr3 mgd[662]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 12:02:42  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:05:12  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:07:42  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:12:43  rr3 last message repeated 2 times
+Feb 13 12:15:01  rr3 CRON[779]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:15:13  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:17:43  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:20:13  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:27:43  rr3 last message repeated 3 times
+Feb 13 12:30:01  rr3 CRON[812]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:30:13  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:32:43  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:35:14  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:40:14  rr3 last message repeated 2 times
+Feb 13 12:41:26  rr3 mgd[845]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 12:41:26  rr3 mgd[845]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 12:41:26  rr3 mgd[845]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770986486-5' and old database revision 'localhost-1770984061-4'
+Feb 13 12:41:26  rr3 mgd[845]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 12:41:26  rr3 mgd[845]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 12:42:44  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:45:01  rr3 CRON[942]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:45:14  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:47:44  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:50:14  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:57:44  rr3 last message repeated 3 times
+Feb 13 13:00:01  rr3 CRON[975]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:00:15  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:02:45  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:05:15  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:12:45  rr3 last message repeated 3 times
+Feb 13 13:15:01  rr3 CRON[1008]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:15:15  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:17:45  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:20:16  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:27:46  rr3 last message repeated 3 times
+Feb 13 13:30:01  rr3 CRON[1041]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:30:16  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:32:46  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:35:16  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:42:46  rr3 last message repeated 3 times
+Feb 13 13:45:01  rr3 CRON[1074]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:45:17  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:47:47  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:50:17  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:57:47  rr3 last message repeated 3 times
+Feb 13 14:00:01  rr3 CRON[1107]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:00:17  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:02:47  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:05:17  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:12:48  rr3 last message repeated 3 times
+Feb 13 14:15:01  rr3 CRON[1140]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:15:18  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:17:48  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:20:18  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:27:48  rr3 last message repeated 3 times
+Feb 13 14:30:01  rr3 CRON[1173]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:30:19  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:32:49  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:35:19  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:42:49  rr3 last message repeated 3 times
+Feb 13 14:45:01  rr3 CRON[1206]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:45:19  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:47:49  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:50:19  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:57:50  rr3 last message repeated 3 times
+Feb 13 15:00:01  rr3 CRON[1246]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:00:20  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:02:50  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:05:20  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:12:50  rr3 last message repeated 3 times
+Feb 13 15:15:01  rr3 CRON[1279]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:15:21  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:17:51  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:20:21  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:27:51  rr3 last message repeated 3 times
+Feb 13 15:30:01  rr3 CRON[1312]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:30:21  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:32:51  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:35:21  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:42:52  rr3 last message repeated 3 times
+Feb 13 15:45:01  rr3 CRON[1345]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:45:22  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:47:52  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:50:22  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:57:52  rr3 last message repeated 3 times
+Feb 13 16:00:01  rr3 CRON[1378]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:00:23  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:02:53  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:05:23  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:12:53  rr3 last message repeated 3 times
+Feb 13 16:15:01  rr3 CRON[1411]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:15:23  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:17:53  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:20:23  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:27:54  rr3 last message repeated 3 times
+Feb 13 16:30:01  rr3 CRON[1444]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:30:24  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:32:54  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:35:24  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:42:54  rr3 last message repeated 3 times
+Feb 13 16:45:01  rr3 CRON[1477]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:45:24  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:47:55  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:50:25  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:57:55  rr3 last message repeated 3 times
+Feb 13 17:00:01  rr3 CRON[1510]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:00:25  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:02:55  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:05:25  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:12:56  rr3 last message repeated 3 times
+Feb 13 17:15:01  rr3 CRON[1543]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:15:26  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:17:56  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:20:26  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:22:56  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:23:33  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+47071
+Feb 13 17:23:33  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+47071 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+47071
+Feb 13 17:23:34  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+40167
+Feb 13 17:23:34  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+40167 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+40167
+Feb 13 17:23:35  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+50275
+Feb 13 17:23:35  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+50275 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+50275
+Feb 13 17:23:36  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+47769
+Feb 13 17:23:36  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+47769 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+47769
+Feb 13 17:23:37  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+59625
+Feb 13 17:23:37  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+59625 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+59625
+Feb 13 17:23:38  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+43047
+Feb 13 17:23:38  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+43047 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+43047
+Feb 13 17:23:39  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+34027
+Feb 13 17:23:39  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+34027 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+34027
+Feb 13 17:23:40  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+40449
+Feb 13 17:23:40  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+40449 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+40449
+Feb 13 17:23:47  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+47991
+Feb 13 17:23:47  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+47991 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+47991
+Feb 13 17:23:48  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+44695
+Feb 13 17:23:48  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+44695 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+44695
+Feb 13 17:23:55  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+34087
+Feb 13 17:23:55  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+34087 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+34087
+Feb 13 17:23:56  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+37849
+Feb 13 17:23:56  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+37849 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+37849
+Feb 13 17:24:03  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+49031
+Feb 13 17:24:03  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+49031 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+49031
+Feb 13 17:24:04  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+46087
+Feb 13 17:24:04  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+46087 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+46087
+Feb 13 17:24:11  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+58045
+Feb 13 17:24:11  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+58045 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+58045
+Feb 13 17:24:12  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+42835
+Feb 13 17:24:12  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+42835 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+42835
+Feb 13 17:24:19  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+53631
+Feb 13 17:24:19  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+53631 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+53631
+Feb 13 17:24:20  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+39875
+Feb 13 17:24:20  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+39875 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+39875
+Feb 13 17:24:24  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 75 [2026-02-13 17:24:24]
+Feb 13 17:24:27  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.31+35257
+Feb 13 17:24:27  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.31+35257 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.31+35257
+Feb 13 17:24:28  rr3 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.1.32+57021
+Feb 13 17:24:28  rr3 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.1.32+57021 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.1.32+57021
+Feb 13 17:24:30  rr3 mgd[1570]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 17:24:30  rr3 mgd[1570]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 17:24:30  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 17:24:30  rr3 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 17:24:30  rr3 mgd[1570]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1771003470-6' and old database revision 'localhost-1770986486-5'
+Feb 13 17:24:30  rr3 mgd[1570]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 17:24:30  rr3 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 17:24:30  rr3 rpd: RPD_COMMIT_JOBS_STATUS: RPD commit jobs started on MASTER
+Feb 13 17:24:30  rr3 mgd[1570]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 17:24:30  rr3 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 17:24:30  rr3 last message repeated 2 times
+Feb 13 17:24:30  rr3 rpd: L2VPN acquiring mastership for primary
+Feb 13 17:24:30  rr3 rpd: L2CKT acquiring mastership for primary
+Feb 13 17:24:55  rr3 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 80 [2026-02-13 17:24:46]
+Feb 13 17:25:26  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:27:56  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:30:01  rr3 CRON[1678]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:30:27  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:32:57  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:35:27  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:42:57  rr3 last message repeated 3 times
+Feb 13 17:45:01  rr3 CRON[1711]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:45:27  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:47:57  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:50:27  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:57:58  rr3 last message repeated 3 times
+Feb 13 18:00:01  rr3 CRON[1744]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:00:28  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:02:58  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:05:28  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:12:58  rr3 last message repeated 3 times
+Feb 13 18:15:01  rr3 CRON[1777]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:15:29  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:17:59  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:20:29  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:27:59  rr3 last message repeated 3 times
+Feb 13 18:30:01  rr3 CRON[1810]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:30:29  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:32:59  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:35:29  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:43:00  rr3 last message repeated 3 times
+Feb 13 18:45:01  rr3 CRON[1843]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:45:30  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:48:00  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:50:30  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:58:00  rr3 last message repeated 3 times
+Feb 13 19:00:01  rr3 CRON[1876]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:00:30  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:03:01  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:05:31  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:13:01  rr3 last message repeated 3 times
+Feb 13 19:15:01  rr3 CRON[1909]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:15:31  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:18:01  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:20:31  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:28:02  rr3 last message repeated 3 times
+Feb 13 19:30:01  rr3 CRON[1942]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:30:32  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:33:02  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:35:32  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:43:02  rr3 last message repeated 3 times
+Feb 13 19:45:01  rr3 CRON[1975]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:45:33  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:48:03  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:50:33  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:58:03  rr3 last message repeated 3 times
+Feb 13 20:00:01  rr3 CRON[2008]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:00:33  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:03:03  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:05:33  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:13:04  rr3 last message repeated 3 times
+Feb 13 20:15:01  rr3 CRON[2041]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:15:34  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:18:04  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:20:34  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:28:04  rr3 last message repeated 3 times
+Feb 13 20:30:01  rr3 CRON[2074]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:30:35  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:33:05  rr3 rmopd[224]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 

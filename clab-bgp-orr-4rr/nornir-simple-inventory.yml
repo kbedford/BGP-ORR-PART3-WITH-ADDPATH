@@ -1,0 +1,61 @@
+---
+a1:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.10
+a2:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.12
+b1:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.2
+b2:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.11
+c1:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.8
+c2:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.5
+d1:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.3
+d2:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.13
+rr1:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.9
+rr2:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.4
+rr3:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.7
+rr4:
+    username: root
+    password: clab123
+    platform: juniper_crpd
+    hostname: 172.20.20.6

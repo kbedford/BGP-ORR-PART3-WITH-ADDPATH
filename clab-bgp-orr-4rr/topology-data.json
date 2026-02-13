@@ -1,0 +1,1315 @@
+{
+  "name": "bgp-orr-4rr",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-6adaf58e68a9",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "3fff:172:20:20::/64",
+        "ipv6-gw": "3fff:172:20:20::1",
+        "external-access": true
+      }
+    }
+  },
+  "ssh-pub-keys": ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEh3z6A7CCML0AnCZBWRPNkHKWco5sSAWyu14r6u6Tb1"],
+  "nodes": {
+    "a1": {
+      "index": "0",
+      "shortname": "a1",
+      "longname": "clab-bgp-orr-4rr-a1",
+      "fqdn": "a1.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/a1",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.10",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::a",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/a1",
+        "clab-node-longname": "clab-bgp-orr-4rr-a1",
+        "clab-node-name": "a1",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "a2": {
+      "index": "1",
+      "shortname": "a2",
+      "longname": "clab-bgp-orr-4rr-a2",
+      "fqdn": "a2.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/a2",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.12",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::c",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/a2",
+        "clab-node-longname": "clab-bgp-orr-4rr-a2",
+        "clab-node-name": "a2",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "b1": {
+      "index": "2",
+      "shortname": "b1",
+      "longname": "clab-bgp-orr-4rr-b1",
+      "fqdn": "b1.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/b1",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::2",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/b1",
+        "clab-node-longname": "clab-bgp-orr-4rr-b1",
+        "clab-node-name": "b1",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "b2": {
+      "index": "3",
+      "shortname": "b2",
+      "longname": "clab-bgp-orr-4rr-b2",
+      "fqdn": "b2.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/b2",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.11",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::b",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/b2",
+        "clab-node-longname": "clab-bgp-orr-4rr-b2",
+        "clab-node-name": "b2",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "c1": {
+      "index": "4",
+      "shortname": "c1",
+      "longname": "clab-bgp-orr-4rr-c1",
+      "fqdn": "c1.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/c1",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/c1",
+        "clab-node-longname": "clab-bgp-orr-4rr-c1",
+        "clab-node-name": "c1",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "c2": {
+      "index": "5",
+      "shortname": "c2",
+      "longname": "clab-bgp-orr-4rr-c2",
+      "fqdn": "c2.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/c2",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/c2",
+        "clab-node-longname": "clab-bgp-orr-4rr-c2",
+        "clab-node-name": "c2",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "d1": {
+      "index": "6",
+      "shortname": "d1",
+      "longname": "clab-bgp-orr-4rr-d1",
+      "fqdn": "d1.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/d1",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/d1",
+        "clab-node-longname": "clab-bgp-orr-4rr-d1",
+        "clab-node-name": "d1",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "d2": {
+      "index": "7",
+      "shortname": "d2",
+      "longname": "clab-bgp-orr-4rr-d2",
+      "fqdn": "d2.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/d2",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.13",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::d",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/d2",
+        "clab-node-longname": "clab-bgp-orr-4rr-d2",
+        "clab-node-name": "d2",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "rr1": {
+      "index": "8",
+      "shortname": "rr1",
+      "longname": "clab-bgp-orr-4rr-rr1",
+      "fqdn": "rr1.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr1",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::9",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr1",
+        "clab-node-longname": "clab-bgp-orr-4rr-rr1",
+        "clab-node-name": "rr1",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "rr2": {
+      "index": "9",
+      "shortname": "rr2",
+      "longname": "clab-bgp-orr-4rr-rr2",
+      "fqdn": "rr2.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr2",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr2",
+        "clab-node-longname": "clab-bgp-orr-4rr-rr2",
+        "clab-node-name": "rr2",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "rr3": {
+      "index": "10",
+      "shortname": "rr3",
+      "longname": "clab-bgp-orr-4rr-rr3",
+      "fqdn": "rr3.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr3",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::7",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr3",
+        "clab-node-longname": "clab-bgp-orr-4rr-rr3",
+        "clab-node-name": "rr3",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "rr4": {
+      "index": "11",
+      "shortname": "rr4",
+      "longname": "clab-bgp-orr-4rr-rr4",
+      "fqdn": "rr4.bgp-orr-4rr.io",
+      "group": "",
+      "labdir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr4",
+      "kind": "juniper_crpd",
+      "image": "crpd:24.4R2-S3.5",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-git-branch": "main",
+        "clab-git-hash": "3fe2ee2",
+        "clab-mgmt-net-bridge": "br-6adaf58e68a9",
+        "clab-node-group": "",
+        "clab-node-kind": "juniper_crpd",
+        "clab-node-lab-dir": "/root/BGP-ORR-PART3-WITH-ADDPATH/clab-bgp-orr-4rr/rr4",
+        "clab-node-longname": "clab-bgp-orr-4rr-rr4",
+        "clab-node-name": "rr4",
+        "clab-node-type": "",
+        "clab-owner": "root",
+        "clab-topo-file": "/root/BGP-ORR-PART3-WITH-ADDPATH/bgp-orr-4rr.clab.yml",
+        "containerlab": "bgp-orr-4rr"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 3784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 4784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 50051,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 6784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 7784,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 830,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 179,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:f3:c2:72",
+          "peer": "z"
+        },
+        "z": {
+          "node": "rr2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:62:4c:ad",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:07:de:60",
+          "peer": "z"
+        },
+        "z": {
+          "node": "rr3",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:26:bd:c6",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr3",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:1c:58:07",
+          "peer": "z"
+        },
+        "z": {
+          "node": "rr4",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:0b:3b:b8",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr4",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:63:8f:b1",
+          "peer": "z"
+        },
+        "z": {
+          "node": "rr1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:5a:e8:9b",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr1",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:5e:e7:f8",
+          "peer": "z"
+        },
+        "z": {
+          "node": "a1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:f3:16:18",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr4",
+          "interface": "eth5",
+          "mac": "aa:c1:ab:79:df:74",
+          "peer": "z"
+        },
+        "z": {
+          "node": "a1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:12:05:c7",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr1",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:db:21:23",
+          "peer": "z"
+        },
+        "z": {
+          "node": "a2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:27:33:23",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr4",
+          "interface": "eth6",
+          "mac": "aa:c1:ab:e6:0c:5d",
+          "peer": "z"
+        },
+        "z": {
+          "node": "a2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:84:d2:38",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr2",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:49:9d:26",
+          "peer": "z"
+        },
+        "z": {
+          "node": "b1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:2c:1f:1e",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr1",
+          "interface": "eth5",
+          "mac": "aa:c1:ab:6b:35:ba",
+          "peer": "z"
+        },
+        "z": {
+          "node": "b1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:ca:40:56",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr2",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:37:de:99",
+          "peer": "z"
+        },
+        "z": {
+          "node": "b2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:39:8e:ca",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr1",
+          "interface": "eth6",
+          "mac": "aa:c1:ab:39:54:eb",
+          "peer": "z"
+        },
+        "z": {
+          "node": "b2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:8c:ea:77",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr3",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:b2:a6:15",
+          "peer": "z"
+        },
+        "z": {
+          "node": "c1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:97:3f:76",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr2",
+          "interface": "eth5",
+          "mac": "aa:c1:ab:5a:fc:8c",
+          "peer": "z"
+        },
+        "z": {
+          "node": "c1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:d6:36:e3",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr3",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:e0:3c:24",
+          "peer": "z"
+        },
+        "z": {
+          "node": "c2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:7a:61:f6",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr2",
+          "interface": "eth6",
+          "mac": "aa:c1:ab:c0:d0:1c",
+          "peer": "z"
+        },
+        "z": {
+          "node": "c2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:64:47:5e",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr4",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:b1:0a:a6",
+          "peer": "z"
+        },
+        "z": {
+          "node": "d1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:56:b7:5d",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr3",
+          "interface": "eth5",
+          "mac": "aa:c1:ab:14:d0:b8",
+          "peer": "z"
+        },
+        "z": {
+          "node": "d1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:28:ef:3e",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr4",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:ac:b5:27",
+          "peer": "z"
+        },
+        "z": {
+          "node": "d2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:74:26:f3",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "rr3",
+          "interface": "eth6",
+          "mac": "aa:c1:ab:b1:5f:57",
+          "peer": "z"
+        },
+        "z": {
+          "node": "d2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:75:ca:c2",
+          "peer": "a"
+        }
+      }
+    }
+  ]
+}

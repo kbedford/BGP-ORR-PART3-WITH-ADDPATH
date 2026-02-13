@@ -1,0 +1,474 @@
+Feb 13 11:47:41  c2 bfdd[191]: sysctl hw.product.pvi_model not supported 
+Feb 13 11:47:42  c2 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:47:42  c2 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:47:42  c2 jdhcpd[189]: pvidb_get_root_node: Error(2) retrieving rootnode value 
+Feb 13 11:47:42  c2 jdhcpd: smid_client_shmem_init: shmget created segment, id 4 sz 1
+Feb 13 11:47:42  c2 jdhcpd: sysctl get re memory: No such file or directory
+Feb 13 11:47:42  c2 rpd: RPD_KRT_MULTIFIB_SERVICE_INIT: Initializing KRT Multi FIB Service
+Feb 13 11:47:42  c2 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:47:42  c2 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:47:42  c2 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:47:42  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:42  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:42  c2 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs started on MASTER
+Feb 13 11:47:42  c2 rpd: JTASK_TASK_BEGIN: Commencing routing updates version 24.4R2-S3.5, built 2026-01-30 08:19:24 UTC by builder
+Feb 13 11:47:42  c2 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:47:42  c2 last message repeated 2 times
+Feb 13 11:47:42  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 1 [2026-02-13 11:47:42]
+Feb 13 11:47:42  c2 mgd[357]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:47:42  c2 mgd[357]: UI_EPHEMERAL_COMMIT: User 'root' has requested commit on 'junos-analytics' ephemeral database
+Feb 13 11:47:42  c2 mgd[357]: UI_EPHEMERAL_COMMIT_COMPLETED: commit complete on 'junos-analytics' ephemeral database
+Feb 13 11:48:12  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 16 [2026-02-13 11:47:42]
+Feb 13 11:48:12  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 19 [2026-02-13 11:47:42]
+Feb 13 11:50:11  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:52:42  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:55:12  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:56:35  c2 mgd[400]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 11:56:35  c2 mgd[400]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:56:37  c2 root: sshd config okay
+Feb 13 11:56:37  c2 sshd[468]: Server listening on 0.0.0.0 port 830.
+Feb 13 11:56:37  c2 sshd[468]: Server listening on :: port 830.
+Feb 13 11:56:37  c2 sshd[468]: Server listening on 0.0.0.0 port 22.
+Feb 13 11:56:37  c2 sshd[468]: Server listening on :: port 22.
+Feb 13 11:56:37  c2 rpd: BGP_CFG_SEND_ADDPATH_OPTIMIZATION: send-addpath-optimization is disabled
+Feb 13 11:56:37  c2 mgd[400]: UI_CHILD_WAITPID: waitpid failed: PID 477, rc -1, status 30a2bc38: Interrupted system call
+Feb 13 11:56:37  c2 mgd[400]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770983795-2' and old database revision 'localhost-1770983259-1'
+Feb 13 11:56:37  c2 mgd[400]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 11:56:37  c2 rpd: BGP_ADDR_NOT_FOUND: bgp_peer_init: BGP peer 10.0.0.3 (Internal AS 65000) local address 10.0.1.22 (instance master) not found.  Leaving peer idled
+Feb 13 11:56:37  c2 rpd: RPD_CONTAINER_LICENSE_ERROR: Valid containerized RPD license not present
+Feb 13 11:56:37  c2 mgd[400]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 11:56:37  c2 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:56:37  c2 rpd: RPD_COMMIT_JOBS_STATUS: RPD commit jobs started on MASTER
+Feb 13 11:56:37  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 17 [2026-02-13 11:56:37]
+Feb 13 11:56:37  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 20 [2026-02-13 11:56:37]
+Feb 13 11:56:37  c2 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:56:37  c2 last message repeated 2 times
+Feb 13 11:56:37  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 2 [2026-02-13 11:56:37]
+Feb 13 11:56:37  c2 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:56:37  c2 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:57:08  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 22 [2026-02-13 11:56:38]
+Feb 13 11:57:08  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 25 [2026-02-13 11:56:38]
+Feb 13 11:57:34  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 3 [2026-02-13 11:57:34]
+Feb 13 11:57:38  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 35 [2026-02-13 11:57:38]
+Feb 13 11:57:38  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 38 [2026-02-13 11:57:38]
+Feb 13 11:57:42  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 11:58:04  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 35 [2026-02-13 11:57:45]
+Feb 13 11:58:08  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 55 [2026-02-13 11:57:45]
+Feb 13 11:58:08  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 59 [2026-02-13 11:57:45]
+Feb 13 11:58:39  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 56 [2026-02-13 11:58:38]
+Feb 13 11:58:39  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 60 [2026-02-13 11:58:38]
+Feb 13 11:58:39  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 36 [2026-02-13 11:58:38]
+Feb 13 11:59:09  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for unique destinations: 59 [2026-02-13 11:58:40]
+Feb 13 11:59:09  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 63 [2026-02-13 11:58:40]
+Feb 13 11:59:09  c2 rpd: RPD_RT_HWM_NOTICE: New FIB highwatermark for routes: 39 [2026-02-13 11:58:40]
+Feb 13 11:59:12  c2 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to rr2 on eth2, reason: Level Mismatch
+Feb 13 11:59:12  c2 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to rr2 on eth2, reason: Level Mismatch
+Feb 13 11:59:13  c2 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L1 adjacency to rr3 on eth1, reason: Level Mismatch
+Feb 13 11:59:13  c2 rpd: RPD_ISIS_ADJDOWN: IS-IS lost L2 adjacency to rr3 on eth1, reason: Level Mismatch
+Feb 13 11:59:17  c2 mgd[549]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 11:59:17  c2 mgd[549]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 11:59:18  c2 rpd: RPD_COMMIT_SYNC_STATUS: RPD commit sync completed on MASTER
+Feb 13 11:59:18  c2 rpd: RPD_COMMIT_JOBS_STATUS: RPD commit jobs started on MASTER
+Feb 13 11:59:18  c2 mgd[549]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770983957-3' and old database revision 'localhost-1770983795-2'
+Feb 13 11:59:18  c2 mgd[549]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 11:59:18  c2 rpd: RPD_COMMIT_JOBS_STATUS:  RPD commit jobs completed on MASTER
+Feb 13 11:59:18  c2 last message repeated 2 times
+Feb 13 11:59:18  c2 mgd[549]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 11:59:18  c2 rpd: L2VPN acquiring mastership for primary
+Feb 13 11:59:18  c2 rpd: L2CKT acquiring mastership for primary
+Feb 13 11:59:38  c2 rpd: RPD_RT_HWM_NOTICE: New RIB highwatermark for routes: 65 [2026-02-13 11:59:26]
+Feb 13 12:00:01  c2 CRON[646]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:00:12  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:01:17  c2 mgd[657]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 12:01:17  c2 mgd[657]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 12:01:17  c2 mgd[657]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770984077-4' and old database revision 'localhost-1770983957-3'
+Feb 13 12:01:17  c2 mgd[657]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 12:01:17  c2 mgd[657]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 12:02:42  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:05:12  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:07:42  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:12:42  c2 last message repeated 2 times
+Feb 13 12:15:01  c2 CRON[775]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:15:12  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:17:43  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:20:13  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:27:43  c2 last message repeated 3 times
+Feb 13 12:30:01  c2 CRON[808]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:30:13  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:32:43  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:35:13  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:40:14  c2 last message repeated 2 times
+Feb 13 12:41:40  c2 mgd[841]: UI_DBASE_LOGIN_EVENT: User 'root' entering configuration mode
+Feb 13 12:41:40  c2 mgd[841]: UI_COMMIT: User 'root' requested 'commit' operation (comment: none)
+Feb 13 12:41:40  c2 mgd[841]: UI_CONFIGURATION_REVISION_UPDATED: New database revision 'localhost-1770986500-5' and old database revision 'localhost-1770984077-4'
+Feb 13 12:41:40  c2 mgd[841]: UI_COMMIT_COMPLETED:  : commit complete 
+Feb 13 12:41:40  c2 mgd[841]: UI_DBASE_LOGOUT_EVENT: User 'root' exiting configuration mode
+Feb 13 12:42:44  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:45:01  c2 CRON[938]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 12:45:14  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:47:44  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:50:14  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 12:57:44  c2 last message repeated 3 times
+Feb 13 13:00:01  c2 CRON[971]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:00:14  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:02:44  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:05:15  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:12:45  c2 last message repeated 3 times
+Feb 13 13:15:01  c2 CRON[1004]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:15:15  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:17:45  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:20:15  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:27:45  c2 last message repeated 3 times
+Feb 13 13:30:01  c2 CRON[1037]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:30:16  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:32:46  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:35:16  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:42:46  c2 last message repeated 3 times
+Feb 13 13:45:01  c2 CRON[1070]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 13:45:16  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:47:46  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:50:16  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 13:57:47  c2 last message repeated 3 times
+Feb 13 14:00:01  c2 CRON[1103]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:00:17  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:02:47  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:05:17  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:12:48  c2 last message repeated 3 times
+Feb 13 14:15:01  c2 CRON[1136]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:15:18  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:17:48  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:20:18  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:27:48  c2 last message repeated 3 times
+Feb 13 14:30:01  c2 CRON[1169]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:30:18  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:32:48  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:35:19  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:42:49  c2 last message repeated 3 times
+Feb 13 14:45:01  c2 CRON[1202]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 14:45:19  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:47:49  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:50:19  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 14:57:50  c2 last message repeated 3 times
+Feb 13 15:00:01  c2 CRON[1235]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:00:20  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:02:50  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:05:20  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:12:50  c2 last message repeated 3 times
+Feb 13 15:15:01  c2 CRON[1268]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:15:20  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:17:50  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:20:21  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:27:51  c2 last message repeated 3 times
+Feb 13 15:30:01  c2 CRON[1301]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:30:21  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:32:51  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:35:21  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:42:52  c2 last message repeated 3 times
+Feb 13 15:45:01  c2 CRON[1334]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 15:45:22  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:47:52  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:50:22  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 15:57:52  c2 last message repeated 3 times
+Feb 13 16:00:01  c2 CRON[1367]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:00:22  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:02:53  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:05:23  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:12:53  c2 last message repeated 3 times
+Feb 13 16:15:01  c2 CRON[1400]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:15:23  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:17:53  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:20:23  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:27:54  c2 last message repeated 3 times
+Feb 13 16:30:01  c2 CRON[1433]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:30:24  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:32:54  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:35:24  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:42:54  c2 last message repeated 3 times
+Feb 13 16:45:01  c2 CRON[1466]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 16:45:25  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:47:55  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:50:25  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 16:57:55  c2 last message repeated 3 times
+Feb 13 17:00:01  c2 CRON[1499]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:00:25  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:02:55  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:05:25  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:12:56  c2 last message repeated 3 times
+Feb 13 17:15:01  c2 CRON[1532]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:15:26  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:17:56  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:20:26  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:22:56  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:24:28  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40667
+Feb 13 17:24:28  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40667 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40667
+Feb 13 17:24:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52151
+Feb 13 17:24:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52151 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52151
+Feb 13 17:24:32  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+49221
+Feb 13 17:24:32  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+49221 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+49221
+Feb 13 17:24:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+45063
+Feb 13 17:24:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+45063 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+45063
+Feb 13 17:24:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52077
+Feb 13 17:24:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52077 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52077
+Feb 13 17:24:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52485
+Feb 13 17:24:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52485 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52485
+Feb 13 17:24:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+39981
+Feb 13 17:24:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+39981 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+39981
+Feb 13 17:25:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+47187
+Feb 13 17:25:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+47187 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+47187
+Feb 13 17:25:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+36707
+Feb 13 17:25:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+36707 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+36707
+Feb 13 17:25:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+58353
+Feb 13 17:25:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+58353 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+58353
+Feb 13 17:25:26  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:25:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44327
+Feb 13 17:25:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44327 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44327
+Feb 13 17:26:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+46195
+Feb 13 17:26:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+46195 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+46195
+Feb 13 17:26:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+53187
+Feb 13 17:26:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+53187 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+53187
+Feb 13 17:27:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+34697
+Feb 13 17:27:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+34697 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+34697
+Feb 13 17:27:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+48171
+Feb 13 17:27:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+48171 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+48171
+Feb 13 17:27:57  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:28:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+46525
+Feb 13 17:28:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+46525 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+46525
+Feb 13 17:28:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+39691
+Feb 13 17:28:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+39691 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+39691
+Feb 13 17:30:01  c2 CRON[1565]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:30:27  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:31:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+43309
+Feb 13 17:31:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+43309 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+43309
+Feb 13 17:32:57  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:33:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+33409
+Feb 13 17:33:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+33409 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+33409
+Feb 13 17:35:27  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:36:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+35949
+Feb 13 17:36:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+35949 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+35949
+Feb 13 17:37:57  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:38:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40453
+Feb 13 17:38:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40453 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40453
+Feb 13 17:40:27  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:41:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+55713
+Feb 13 17:41:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+55713 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+55713
+Feb 13 17:42:57  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:43:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+34433
+Feb 13 17:43:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+34433 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+34433
+Feb 13 17:45:01  c2 CRON[1598]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 17:45:27  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:45:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+34165
+Feb 13 17:45:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+34165 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+34165
+Feb 13 17:47:57  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:48:26  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+37857
+Feb 13 17:48:26  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+37857 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+37857
+Feb 13 17:50:27  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:50:54  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+49333
+Feb 13 17:50:54  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+49333 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+49333
+Feb 13 17:52:58  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:53:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+57577
+Feb 13 17:53:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+57577 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+57577
+Feb 13 17:55:28  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:55:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+36859
+Feb 13 17:55:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+36859 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+36859
+Feb 13 17:57:58  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 17:58:18  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+49529
+Feb 13 17:58:18  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+49529 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+49529
+Feb 13 18:00:01  c2 CRON[1631]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:00:28  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:00:46  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+50063
+Feb 13 18:00:46  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+50063 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+50063
+Feb 13 18:02:58  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:03:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+41405
+Feb 13 18:03:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+41405 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+41405
+Feb 13 18:05:28  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:05:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+57215
+Feb 13 18:05:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+57215 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+57215
+Feb 13 18:07:58  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:08:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+45497
+Feb 13 18:08:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+45497 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+45497
+Feb 13 18:10:28  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:10:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+39885
+Feb 13 18:10:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+39885 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+39885
+Feb 13 18:12:58  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:13:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+38475
+Feb 13 18:13:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+38475 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+38475
+Feb 13 18:15:01  c2 CRON[1664]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:15:28  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:15:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44805
+Feb 13 18:15:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44805 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44805
+Feb 13 18:17:59  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:18:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52313
+Feb 13 18:18:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52313 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52313
+Feb 13 18:20:29  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:20:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+42743
+Feb 13 18:20:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+42743 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+42743
+Feb 13 18:22:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+37247
+Feb 13 18:22:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+37247 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+37247
+Feb 13 18:22:59  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:25:26  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+54105
+Feb 13 18:25:26  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+54105 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+54105
+Feb 13 18:25:29  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:27:54  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+35983
+Feb 13 18:27:54  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+35983 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+35983
+Feb 13 18:27:59  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:30:01  c2 CRON[1697]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:30:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52093
+Feb 13 18:30:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52093 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52093
+Feb 13 18:30:29  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:32:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40215
+Feb 13 18:32:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40215 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40215
+Feb 13 18:32:59  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:35:18  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40425
+Feb 13 18:35:18  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40425 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40425
+Feb 13 18:35:29  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:37:46  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52837
+Feb 13 18:37:46  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52837 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52837
+Feb 13 18:37:59  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:40:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+34585
+Feb 13 18:40:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+34585 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+34585
+Feb 13 18:40:30  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:42:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+45573
+Feb 13 18:42:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+45573 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+45573
+Feb 13 18:43:00  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:45:01  c2 CRON[1730]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 18:45:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+57531
+Feb 13 18:45:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+57531 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+57531
+Feb 13 18:45:30  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:47:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+51181
+Feb 13 18:47:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+51181 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+51181
+Feb 13 18:48:00  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:50:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+60331
+Feb 13 18:50:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+60331 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+60331
+Feb 13 18:50:30  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:52:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+39471
+Feb 13 18:52:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+39471 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+39471
+Feb 13 18:53:00  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:55:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+37195
+Feb 13 18:55:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+37195 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+37195
+Feb 13 18:55:30  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:57:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+59143
+Feb 13 18:57:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+59143 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+59143
+Feb 13 18:58:00  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 18:59:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+54759
+Feb 13 18:59:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+54759 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+54759
+Feb 13 19:00:01  c2 CRON[1763]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:00:30  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:02:26  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+57519
+Feb 13 19:02:26  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+57519 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+57519
+Feb 13 19:03:01  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:04:54  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+43709
+Feb 13 19:04:54  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+43709 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+43709
+Feb 13 19:05:31  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:07:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+37097
+Feb 13 19:07:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+37097 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+37097
+Feb 13 19:08:01  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:09:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44633
+Feb 13 19:09:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44633 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44633
+Feb 13 19:10:31  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:12:18  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40857
+Feb 13 19:12:18  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40857 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40857
+Feb 13 19:13:01  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:14:46  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+38315
+Feb 13 19:14:46  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+38315 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+38315
+Feb 13 19:15:01  c2 CRON[1796]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:15:31  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:17:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+38989
+Feb 13 19:17:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+38989 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+38989
+Feb 13 19:18:01  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:19:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+35609
+Feb 13 19:19:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+35609 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+35609
+Feb 13 19:20:31  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:22:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+35217
+Feb 13 19:22:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+35217 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+35217
+Feb 13 19:23:01  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:24:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+57831
+Feb 13 19:24:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+57831 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+57831
+Feb 13 19:25:32  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:27:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+45679
+Feb 13 19:27:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+45679 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+45679
+Feb 13 19:28:02  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:29:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44789
+Feb 13 19:29:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44789 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44789
+Feb 13 19:30:01  c2 CRON[1829]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:30:32  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:32:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+39865
+Feb 13 19:32:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+39865 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+39865
+Feb 13 19:33:02  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:34:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44185
+Feb 13 19:34:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44185 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44185
+Feb 13 19:35:32  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:36:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+43329
+Feb 13 19:36:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+43329 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+43329
+Feb 13 19:38:02  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:39:26  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+41721
+Feb 13 19:39:26  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+41721 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+41721
+Feb 13 19:40:32  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:41:54  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+52241
+Feb 13 19:41:54  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+52241 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+52241
+Feb 13 19:43:02  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:44:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+55093
+Feb 13 19:44:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+55093 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+55093
+Feb 13 19:45:01  c2 CRON[1862]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 19:45:32  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:46:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+35989
+Feb 13 19:46:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+35989 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+35989
+Feb 13 19:48:03  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:49:18  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+59543
+Feb 13 19:49:18  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+59543 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+59543
+Feb 13 19:50:33  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:51:46  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+48539
+Feb 13 19:51:46  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+48539 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+48539
+Feb 13 19:53:03  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:54:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+60293
+Feb 13 19:54:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+60293 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+60293
+Feb 13 19:55:33  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:56:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+59043
+Feb 13 19:56:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+59043 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+59043
+Feb 13 19:58:03  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 19:59:10  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+58533
+Feb 13 19:59:10  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+58533 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+58533
+Feb 13 20:00:01  c2 CRON[1895]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:00:33  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:01:38  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+40561
+Feb 13 20:01:38  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+40561 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+40561
+Feb 13 20:03:03  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:04:06  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+55915
+Feb 13 20:04:06  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+55915 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+55915
+Feb 13 20:05:33  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:06:34  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+51107
+Feb 13 20:06:34  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+51107 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+51107
+Feb 13 20:08:03  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:09:02  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+47455
+Feb 13 20:09:02  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+47455 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+47455
+Feb 13 20:10:34  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:11:30  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44357
+Feb 13 20:11:30  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44357 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44357
+Feb 13 20:13:04  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:13:58  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+51727
+Feb 13 20:13:58  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+51727 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+51727
+Feb 13 20:15:01  c2 CRON[1928]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:15:34  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:16:26  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+44313
+Feb 13 20:16:26  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+44313 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+44313
+Feb 13 20:18:04  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:18:54  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+41149
+Feb 13 20:18:54  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+41149 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+41149
+Feb 13 20:20:34  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:21:22  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+42483
+Feb 13 20:21:22  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+42483 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+42483
+Feb 13 20:23:04  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:23:50  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+58047
+Feb 13 20:23:50  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+58047 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+58047
+Feb 13 20:25:34  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:26:18  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+46523
+Feb 13 20:26:18  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+46523 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+46523
+Feb 13 20:28:04  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:28:46  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+58345
+Feb 13 20:28:46  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+58345 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+58345
+Feb 13 20:30:01  c2 CRON[1959]: pam_env(cron:session): Unable to open env file: /etc/default/locale: No such file or directory
+Feb 13 20:30:35  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:31:14  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+50831
+Feb 13 20:31:14  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+50831 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+50831
+Feb 13 20:33:05  c2 rmopd[203]: LIBJSNMP_NS_LOG_WARNING: WARNING: Warning: Failed to connect to the agentx master agent (/var/agentx/master): Unknown host (/var/agentx/master) (No such file or directory) 
+Feb 13 20:33:42  c2 rpd: bgp_peer_addr_ok: Connection attempt from unconfigured neighbor: 10.0.0.2+59911
+Feb 13 20:33:42  c2 rpd: bgp_listen_accept:7657: NOTIFICATION sent to 10.0.0.2+59911 (proto): code 6 (Cease) subcode 5 (Connection Rejected), Reason: Connection attempt from unconfigured neighbor: 10.0.0.2+59911

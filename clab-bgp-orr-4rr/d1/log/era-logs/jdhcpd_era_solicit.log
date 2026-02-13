@@ -1,0 +1,22 @@
+ERA: ERA Version 109, (PID 202), Time Fri Feb 13 11:47:42 2026
+
+ERA: Create Trace file: /var/log/era-logs/jdhcpd_era_solicit.log
+ERA: fp:                0x563ba8daea00
+
+ERA: daemon name:  'jdhcpd'
+
+
+ERA:        start    end    event    force  criteria    event    event    event   event   event   event     max  empty  rate      util   depart
+ERA:         time   time   starts   starts  failures   compld  timeout  failure  cancel  purged  queued  queued  queue   sec  sec    %  rate-ms
+ERA: ERA Object ptr:    0x563ba8e31000
+
+ERA: create: 0x563ba8e31000
+ERA: get_ascii_base_time = Fri Feb 13 11:47:42 2026
+
+ERA: get_ascii_time      = Fri Feb 13 11:47:42 2026
+
+ERA: set_debug_flags: object, debug, bin:     0x563ba8e31000,  0x00000037, 0x00000009
+ERA: set_criteria_max_queue_size:             0x563ba8e31000,      0
+ERA: set_criteria_purge_stale_entries:        0x563ba8e31000, 240.000 sec
+ERA: set_debug_flags: object, debug, bin:     0x563ba8e31000,  0x00000037, 0x00000009
+ERA: set_debug_flags: object, debug, bin:     0x563ba8e31000,  0x00000037, 0x00000009
