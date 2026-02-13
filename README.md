@@ -105,8 +105,98 @@ On any node (example `rr1`):
 
 ```bash
 docker exec -it clab-bgp-orr-4rr-rr1 cli
-show isis adjacency
-show route protocol isis
+root@rr1> show isis adjacency
+Interface             System         L State         Hold (secs) SNPA
+eth1                  rr2            2  Up                    23
+eth2                  rr4            2  Up                    26
+eth3                  a1             2  Up                    21
+eth4                  a2             2  Up                    18
+eth5                  b1             2  Up                    23
+eth6                  b2             2  Up                    23
+
+root@rr1> show route protocol isis
+
+inet.0: 49 destinations, 50 routes (49 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+10.0.0.2/32        *[IS-IS/18] 01:23:36, metric 10
+                       to 172.16.0.19 via eth5
+                    >  to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+10.0.0.3/32        *[IS-IS/18] 01:23:36, metric 20
+                       to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                    >  to 172.16.0.9 via eth3
+                       to 172.16.0.13 via eth4
+                       to 172.16.0.23 via eth6
+10.0.0.4/32        *[IS-IS/18] 01:23:36, metric 10
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+10.0.1.1/32        *[IS-IS/18] 01:23:36, metric 5
+                    >  to 172.16.0.9 via eth3
+10.0.1.2/32        *[IS-IS/18] 01:23:36, metric 5
+                    >  to 172.16.0.13 via eth4
+10.0.1.11/32       *[IS-IS/18] 01:23:36, metric 5
+                    >  to 172.16.0.19 via eth5
+10.0.1.12/32       *[IS-IS/18] 01:23:36, metric 5
+                    >  to 172.16.0.23 via eth6
+10.0.1.21/32       *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                    >  to 172.16.0.23 via eth6
+10.0.1.22/32       *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                    >  to 172.16.0.23 via eth6
+10.0.1.31/32       *[IS-IS/18] 01:23:36, metric 15
+                    >  to 172.16.0.9 via eth3
+                       to 172.16.0.13 via eth4
+10.0.1.32/32       *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+172.16.0.2/31      *[IS-IS/18] 01:23:36, metric 20
+                       to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                    >  to 172.16.0.23 via eth6
+172.16.0.4/31      *[IS-IS/18] 01:23:36, metric 60
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+172.16.0.10/31     *[IS-IS/18] 01:23:36, metric 10
+                    >  to 172.16.0.9 via eth3
+172.16.0.14/31     *[IS-IS/18] 01:23:36, metric 10
+                    >  to 172.16.0.13 via eth4
+172.16.0.16/31     *[IS-IS/18] 01:23:36, metric 10
+                    >  to 172.16.0.19 via eth5
+172.16.0.20/31     *[IS-IS/18] 01:23:36, metric 10
+                    >  to 172.16.0.23 via eth6
+172.16.0.24/31     *[IS-IS/18] 01:23:36, metric 20
+                    >  to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+172.16.0.26/31     *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.19 via eth5
+                    >  to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+172.16.0.28/31     *[IS-IS/18] 01:23:36, metric 20
+                    >  to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+172.16.0.30/31     *[IS-IS/18] 01:23:36, metric 15
+                    >  to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+172.16.0.32/31     *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+172.16.0.34/31     *[IS-IS/18] 01:23:36, metric 20
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+172.16.0.36/31     *[IS-IS/18] 01:23:36, metric 15
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
+172.16.0.38/31     *[IS-IS/18] 01:23:36, metric 20
+                       to 172.16.0.9 via eth3
+                    >  to 172.16.0.13 via eth4
 ```
 
 ## Validate BGP
@@ -114,9 +204,54 @@ show route protocol isis
 On `rr1`:
 
 ```bash
-show bgp summary
-show bgp group CLIENTS
-show route 198.51.100.0/24 detail
+root@rr1> show bgp summary
+Threading mode: BGP I/O
+Default eBGP mode: advertise - accept, receive - accept
+Groups: 2 Peers: 5 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0
+                      10          9          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+10.0.0.2              65000        619        618       0       0     4:38:38 Establ
+  inet.0: 2/2/2/0
+10.0.0.3              65000        617        616       0       0     4:37:28 Establ
+  inet.0: 3/3/3/0
+10.0.0.4              65000        619        618       0       0     4:38:32 Establ
+  inet.0: 2/3/3/0
+10.0.1.1              65000        625        634       0       0     4:38:29 Establ
+  inet.0: 1/1/1/0
+10.0.1.2              65000        625        634       0       0     4:38:30 Establ
+  inet.0: 1/1/1/0
+
+
+root@rr1> show bgp group CLIENTS
+Group Type: Internal    AS: 65000                  Local AS: 65000
+  Name: CLIENTS         Index: 1                   Flags: <Export Eval>
+  Options: <Cluster>
+  Options: <GracefulShutdownRcv>
+  Holdtime: 90 Preference: 0
+  Graceful Shutdown Receiver local-preference: 0
+  Total peers: 2        Established: 2
+  10.0.1.1+58651
+  10.0.1.2+55323
+  inet.0: 2/2/2/0
+
+root@rr1>
+
+root@rr1> show route 198.51.100.0/24
+
+inet.0: 49 destinations, 50 routes (49 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+198.51.100.0/24    *[BGP/170] 01:57:31, localpref 100, from 10.0.0.3
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.19 via eth5
+                       to 172.16.0.1 via eth1
+                       to 172.16.0.23 via eth6
+                    [BGP/170] 01:57:31, localpref 100, from 10.0.0.4
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.9 via eth3
+                       to 172.16.0.13 via eth4
 ```
 
 On `a1`:
