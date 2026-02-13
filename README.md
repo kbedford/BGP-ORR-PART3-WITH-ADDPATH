@@ -114,89 +114,7 @@ eth4                  a2             2  Up                    18
 eth5                  b1             2  Up                    23
 eth6                  b2             2  Up                    23
 
-root@rr1> show route protocol isis
 
-inet.0: 49 destinations, 50 routes (49 active, 0 holddown, 0 hidden)
-+ = Active Route, - = Last Active, * = Both
-
-10.0.0.2/32        *[IS-IS/18] 01:23:36, metric 10
-                       to 172.16.0.19 via eth5
-                    >  to 172.16.0.1 via eth1
-                       to 172.16.0.23 via eth6
-10.0.0.3/32        *[IS-IS/18] 01:23:36, metric 20
-                       to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                    >  to 172.16.0.9 via eth3
-                       to 172.16.0.13 via eth4
-                       to 172.16.0.23 via eth6
-10.0.0.4/32        *[IS-IS/18] 01:23:36, metric 10
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-10.0.1.1/32        *[IS-IS/18] 01:23:36, metric 5
-                    >  to 172.16.0.9 via eth3
-10.0.1.2/32        *[IS-IS/18] 01:23:36, metric 5
-                    >  to 172.16.0.13 via eth4
-10.0.1.11/32       *[IS-IS/18] 01:23:36, metric 5
-                    >  to 172.16.0.19 via eth5
-10.0.1.12/32       *[IS-IS/18] 01:23:36, metric 5
-                    >  to 172.16.0.23 via eth6
-10.0.1.21/32       *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                    >  to 172.16.0.23 via eth6
-10.0.1.22/32       *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                    >  to 172.16.0.23 via eth6
-10.0.1.31/32       *[IS-IS/18] 01:23:36, metric 15
-                    >  to 172.16.0.9 via eth3
-                       to 172.16.0.13 via eth4
-10.0.1.32/32       *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-172.16.0.2/31      *[IS-IS/18] 01:23:36, metric 20
-                       to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                    >  to 172.16.0.23 via eth6
-172.16.0.4/31      *[IS-IS/18] 01:23:36, metric 60
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-172.16.0.10/31     *[IS-IS/18] 01:23:36, metric 10
-                    >  to 172.16.0.9 via eth3
-172.16.0.14/31     *[IS-IS/18] 01:23:36, metric 10
-                    >  to 172.16.0.13 via eth4
-172.16.0.16/31     *[IS-IS/18] 01:23:36, metric 10
-                    >  to 172.16.0.19 via eth5
-172.16.0.20/31     *[IS-IS/18] 01:23:36, metric 10
-                    >  to 172.16.0.23 via eth6
-172.16.0.24/31     *[IS-IS/18] 01:23:36, metric 20
-                    >  to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                       to 172.16.0.23 via eth6
-172.16.0.26/31     *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.19 via eth5
-                    >  to 172.16.0.1 via eth1
-                       to 172.16.0.23 via eth6
-172.16.0.28/31     *[IS-IS/18] 01:23:36, metric 20
-                    >  to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                       to 172.16.0.23 via eth6
-172.16.0.30/31     *[IS-IS/18] 01:23:36, metric 15
-                    >  to 172.16.0.19 via eth5
-                       to 172.16.0.1 via eth1
-                       to 172.16.0.23 via eth6
-172.16.0.32/31     *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-172.16.0.34/31     *[IS-IS/18] 01:23:36, metric 20
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-172.16.0.36/31     *[IS-IS/18] 01:23:36, metric 15
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
-172.16.0.38/31     *[IS-IS/18] 01:23:36, metric 20
-                       to 172.16.0.9 via eth3
-                    >  to 172.16.0.13 via eth4
 ```
 
 ## Validate BGP
@@ -257,7 +175,124 @@ inet.0: 49 destinations, 50 routes (49 active, 0 holddown, 0 hidden)
 On `a1`:
 
 ```bash
-show route 198.51.100.0/24 detail
+root@a1> show route 198.51.100.0/24 detail
+
+inet.0: 45 destinations, 55 routes (45 active, 0 holddown, 0 hidden)
+198.51.100.0/24 (4 entries, 1 announced)
+        *BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e247c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65ba288 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <Active Int Ext>
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:15:54 	Metric2: 10
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                Announcement bits (3): 1-KRT MFS 2-KRT 7-Resolve tree 4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 1
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e247c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65ba288 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - Cluster list length
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:16:03 	Metric2: 10
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.3
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 1
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 5
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - IGP metric
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:16:12 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 2
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 5
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - IGP metric
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:15:54 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 2
+                Thread: junos-main
+
+
 ```
 
 You should see that the chosen next-hop for `198.51.100.0/24` aligns with `d1` when ORR is enabled.
@@ -267,8 +302,28 @@ You should see that the chosen next-hop for `198.51.100.0/24` aligns with `d1` w
 On `rr1`:
 
 ```bash
-show configuration protocols bgp group CLIENTS | display set
-show isis database detail | match "a1|d1|c1"
+root@rr1> show configuration protocols bgp group CLIENTS | display set
+set protocols bgp group CLIENTS type internal
+set protocols bgp group CLIENTS local-address 10.0.0.1
+set protocols bgp group CLIENTS family inet unicast add-path send path-count 3
+set protocols bgp group CLIENTS cluster 10.0.0.1
+set protocols bgp group CLIENTS optimal-route-reflection igp-primary 10.0.1.1
+set protocols bgp group CLIENTS optimal-route-reflection igp-backup 10.0.1.2
+set protocols bgp group CLIENTS neighbor 10.0.1.1
+set protocols bgp group CLIENTS neighbor 10.0.1.2
+
+root@rr1>
+
+root@rr1> show isis database detail | match "a1|d1|c1"
+   IS neighbor: a1.00                         Metric:        5
+   IS neighbor: c1.00                         Metric:        5
+   IS neighbor: c1.00                         Metric:        5
+   IS neighbor: d1.00                         Metric:        5
+   IS neighbor: a1.00                         Metric:        5
+   IS neighbor: d1.00                         Metric:        5
+a1.00-00 Sequence: 0x35, Checksum: 0xc588, Lifetime: 1040 secs
+c1.00-00 Sequence: 0x3b, Checksum: 0xd4e6, Lifetime: 1147 secs
+d1.00-00 Sequence: 0x38, Checksum: 0x633f, Lifetime: 862 secs
 ```
 
 ## BGP ADD-PATH demo (RRs + clients)
@@ -299,14 +354,21 @@ This lab enables ADD-PATH for IPv4:
 On `rr1`:
 
 ```bash
-show configuration protocols bgp group RR-PEERS | display set | match add-path
-show configuration protocols bgp group CLIENTS | display set | match add-path
+root@rr1> show configuration protocols bgp group RR-PEERS | display set | match add-path
+set protocols bgp group RR-PEERS family inet unicast add-path receive
+set protocols bgp group RR-PEERS family inet unicast add-path send path-count 3
+
+root@rr1> show configuration protocols bgp group CLIENTS | display set | match add-path
+set protocols bgp group CLIENTS family inet unicast add-path send path-count 3
+
 ```
 
 On `a1`:
 
 ```bash
-show configuration protocols bgp group RR | display set | match add-path
+root@a1> show configuration protocols bgp group RR | display set | match add-path
+set protocols bgp group RR family inet unicast add-path receive
+
 ```
 
 ### Show multiple paths for a prefix
@@ -316,15 +378,72 @@ Pick the shared prefix `198.51.100.0/24` and check how many paths are received.
 On `rr1` (from RR peers):
 
 ```bash
-show route receive-protocol bgp 10.0.0.2 198.51.100.0/24 detail
-show route receive-protocol bgp 10.0.0.3 198.51.100.0/24 detail
-show route receive-protocol bgp 10.0.0.4 198.51.100.0/24 detail
+root@rr1> show route receive-protocol bgp 10.0.0.2 198.51.100.0/24 detail
+
+inet.0: 49 destinations, 59 routes (49 active, 0 holddown, 0 hidden)
+* 198.51.100.0/24 (4 entries, 2 announced)
+     Accepted
+     Nexthop: 10.0.1.21
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.2
+     Originator ID: 10.0.1.21
+     Addpath Path ID: 1
+
+root@rr1> show route receive-protocol bgp 10.0.0.3 198.51.100.0/24 detail
+
+inet.0: 49 destinations, 59 routes (49 active, 0 holddown, 0 hidden)
+  198.51.100.0/24 (4 entries, 2 announced)
+     Accepted
+     Nexthop: 10.0.1.21
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.3
+     Originator ID: 10.0.1.21
+     Addpath Path ID: 1
+     Accepted
+     Nexthop: 10.0.1.31
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.3
+     Originator ID: 10.0.1.31
+     Addpath Path ID: 2
+
+root@rr1> show route receive-protocol bgp 10.0.0.4 198.51.100.0/24 detail
+
+inet.0: 49 destinations, 59 routes (49 active, 0 holddown, 0 hidden)
+  198.51.100.0/24 (4 entries, 2 announced)
+     Accepted
+     Nexthop: 10.0.1.31
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.4
+     Originator ID: 10.0.1.31
+     Addpath Path ID: 1
+
 ```
 
 On `a1` (from its RR):
 
 ```bash
-show route receive-protocol bgp 10.0.0.1 198.51.100.0/24 detail
+root@a1> show route receive-protocol bgp 10.0.0.1 198.51.100.0/24 detail
+
+inet.0: 45 destinations, 55 routes (45 active, 0 holddown, 0 hidden)
+  198.51.100.0/24 (4 entries, 1 announced)
+     Accepted
+     Nexthop: 10.0.1.31
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.1 10.0.0.3
+     Originator ID: 10.0.1.31
+     Addpath Path ID: 1
+     Accepted
+     Nexthop: 10.0.1.21
+     Localpref: 100
+     AS path: I  (Originator)
+     Cluster list:  10.0.0.1 10.0.0.2
+     Originator ID: 10.0.1.21
+     Addpath Path ID: 2
 ```
 
 You should see **multiple paths** for the same prefix when ADD-PATH is active. This shows that RRs are sending more than one path and clients can receive up to three.
@@ -340,11 +459,125 @@ Goal: show the client has more than one path for the same prefix.
 On `a1`:
 
 ```bash
-show route 198.51.100.0/24 detail
-show route receive-protocol bgp 10.0.0.1 198.51.100.0/24 detail
+root@a1> show route 198.51.100.0/24 detail
+
+inet.0: 45 destinations, 55 routes (45 active, 0 holddown, 0 hidden)
+198.51.100.0/24 (4 entries, 1 announced)
+        *BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e247c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65ba288 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <Active Int Ext>
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:20:27 	Metric2: 10
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                Announcement bits (3): 1-KRT MFS 2-KRT 7-Resolve tree 4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 1
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e247c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65ba288 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - Cluster list length
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:20:36 	Metric2: 10
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.3
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 1
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 5
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - IGP metric
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:20:45 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 2
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 5
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - IGP metric
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:20:27 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 2
+                Thread: junos-main
 ```
 
-Expected: two entries with different `Addpath Path ID` values and different `Protocol next hop` values.
+Expected: 4 entries with different `Addpath Path ID` values and different `Protocol next hop` values.
 
 ### 2) Fast failover when one origin is removed
 
@@ -353,15 +586,84 @@ Goal: show quick switchover without waiting for a new path.
 On `d1` (withdraw the D-region origin):
 
 ```bash
-configure
-deactivate routing-options static route 198.51.100.0/24
-commit and-quit
+root@d1> edit
+Entering configuration mode
+
+[edit]
+root@d1# deactivate routing-options static route 198.51.100.0/24
+
+[edit]
+root@d1# commit and-quit
+commit complete
+Exiting configuration mode
 ```
 
 On `a1`:
 
 ```bash
-show route 198.51.100.0/24 detail
+
+root@a1> show route 198.51.100.0/24 detail
+
+inet.0: 45 destinations, 53 routes (45 active, 0 holddown, 0 hidden)
+198.51.100.0/24 (2 entries, 1 announced)
+        *BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <Active Int Ext>
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:22:12 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                Announcement bits (3): 1-KRT MFS 2-KRT 7-Resolve tree 4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 2
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e64e255c
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.10 via eth2, selected
+                Session Id: 0
+                Next hop: 172.16.0.8 via eth1
+                Session Id: 0
+                Protocol next hop: 10.0.1.21
+                Indirect next hop: 0x55a3e65c0b88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - Update source
+                Local AS: 65000 Peer AS: 65000
+                Age: 3:21:54 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4 10.0.0.2
+                Originator ID: 10.0.1.21
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 2
+                Thread: junos-main
 ```
 
 Expected: the d1 path disappears and the c1 path becomes active immediately.
@@ -370,18 +672,58 @@ Expected: the d1 path disappears and the c1 path becomes active immediately.
 
 Goal: show a path flip without losing backup options.
 
-On `rr1` (raise IGP metric toward the current best path):
+On `a1` (raise IGP metric toward the current best path):
 
 ```bash
-configure
-set protocols isis interface eth3 level 2 metric 50
-commit and-quit
-```
+root@a1> show route 198.51.100.0/24
 
-On `a1`:
+inet.0: 45 destinations, 55 routes (45 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
 
-```bash
-show route 198.51.100.0/24 detail
+198.51.100.0/24    *[BGP/170] 00:03:15, localpref 100, from 10.0.0.4
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.10 via eth2
+                    [BGP/170] 00:03:15, localpref 100, from 10.0.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.10 via eth2
+                    [BGP/170] 03:26:34, localpref 100, from 10.0.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.10 via eth2
+                       to 172.16.0.8 via eth1
+                    [BGP/170] 03:26:16, localpref 100, from 10.0.0.4
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.10 via eth2
+                       to 172.16.0.8 via eth1
+
+root@a1> edit
+Entering configuration mode
+
+[edit]
+root@a1# set protocols isis interface eth2 level 2 metric 50
+
+[edit]
+root@a1# commit and-quit
+commit complete
+Exiting configuration mode
+
+root@a1> show route 198.51.100.0/24
+
+inet.0: 45 destinations, 56 routes (45 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+198.51.100.0/24    *[BGP/170] 00:00:09, localpref 100, from 10.0.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.8 via eth1
+                    [BGP/170] 00:00:09, localpref 100, from 10.0.0.4
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.8 via eth1
+                    [BGP/170] 00:00:09, localpref 100, from 10.0.0.4
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.8 via eth1
+                    [BGP/170] 00:00:09, localpref 100, from 10.0.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 172.16.0.8 via eth1
+
 ```
 
 Expected: best path flips, but both paths remain installed.
@@ -393,7 +735,29 @@ Goal: verify RR → client ADD-PATH advertisement.
 On `rr1`:
 
 ```bash
-show route advertising-protocol bgp 10.0.1.1 198.51.100.0/24
+root@rr1> show route advertising-protocol bgp 10.0.1.1 198.51.100.0/24 detail
+
+inet.0: 49 destinations, 59 routes (49 active, 0 holddown, 0 hidden)
+  198.51.100.0/24 (4 entries, 2 announced)
+ BGP group CLIENTS type Internal
+     Nexthop: 10.0.1.31
+     Localpref: 100
+     AS path: [65000] I  (Originator)
+     Cluster list:  10.0.0.3
+     Originator ID: 10.0.1.31
+     Cluster ID: 10.0.0.1
+     Addpath Path ID: 1
+
+*
+ BGP group CLIENTS type Internal
+     Nexthop: 10.0.1.21
+     Localpref: 100
+     AS path: [65000] I  (Originator)
+     Cluster list:  10.0.0.2
+     Originator ID: 10.0.1.21
+     Cluster ID: 10.0.0.1
+     Addpath Path ID: 2
+
 ```
 
 Expected: two entries for the same prefix with different next-hops.
@@ -405,15 +769,81 @@ Goal: remove a single path while keeping the other.
 On `c1` (withdraw the C-region origin):
 
 ```bash
-configure
-deactivate routing-options static route 198.51.100.0/24
-commit and-quit
+root@c1> edit
+Entering configuration mode
+
+[edit]
+root@c1# deactivate routing-options static route 198.51.100.0/24
+
+[edit]
+root@c1# commit and-quit
+commit complete
+Exiting configuration mode
+
+root@c1>
 ```
 
 On `a1`:
 
 ```bash
-show route 198.51.100.0/24 detail
+root@a1> show route 198.51.100.0/24 detail
+
+inet.0: 45 destinations, 54 routes (45 active, 0 holddown, 0 hidden)
+198.51.100.0/24 (2 entries, 1 announced)
+        *BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e91117bc
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.4
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.8 via eth1, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65c1a88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <Active Int Ext>
+                Local AS: 65000 Peer AS: 65000
+                Age: 6:28 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.4
+                Announcement bits (3): 1-KRT MFS 2-KRT 7-Resolve tree 4
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.4
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.4
+                Addpath Path ID: 1
+                Thread: junos-main
+         BGP    Preference: 170/-101
+                Next hop type: Indirect, Next hop index: 0
+                Address: 0x55a3e91117bc
+                Next-hop reference count: 6
+                Kernel Table Id: 0
+                Source: 10.0.0.1
+                Next hop type: Router, Next hop index: 0
+                Next hop: 172.16.0.8 via eth1, selected
+                Session Id: 0
+                Protocol next hop: 10.0.1.31
+                Indirect next hop: 0x55a3e65c1a88 - INH Session ID: 0
+                Indirect next hop: INH non-key opaque: (nil) INH key opaque: (nil)
+                State: <NotBest Int Ext>
+                Inactive reason: Not Best in its group - Cluster list length
+                Local AS: 65000 Peer AS: 65000
+                Age: 6:28 	Metric2: 20
+                Validation State: unverified
+                ORR Generation-ID: 0
+                Task: BGP_65000.10.0.0.1
+                AS path: I  (Originator)
+                Cluster list:  10.0.0.1 10.0.0.3
+                Originator ID: 10.0.1.31
+                Accepted
+                Localpref: 100
+                Router ID: 10.0.0.1
+                Addpath Path ID: 1
+                Thread: junos-main
 ```
 
 Expected: the c1 path disappears, d1 path remains, and the BGP session stays up.
